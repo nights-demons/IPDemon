@@ -33,7 +33,7 @@ $loc = $obj['loc'];
 $org = $obj['org'];
 $timezona = $obj['timezone'];
 
-$all = "OS: $res\n\rIP: $ip\n\rBrowser: $browser\n\rCity: $city\n\rCountry: $country\n\rRegion: $region\n\rHostName: $hostname\n\rLoc: $loc\n\rORG: $org\n\rTimeZone: $timezona\r";
+$all = "OS: $res\n\rIP: $ip\n\rBrowser: $browser\n\rCity: $city\n\rCountry: $country\n\rRegion: $region\n\rHostName: $hostname\n\rLoc: $loc\n\rORG: $org\n\rTimeZone: $timezona\n\n\r";
 $fs = fopen("r.log", "a+");
 fwrite($fs, $all);
 fclose($fs);
